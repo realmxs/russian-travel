@@ -1,0 +1,19 @@
+.video__text {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+}
+
+@media screen and (max-width: 984px) {
+  .video__text {
+    left: 24px;
+    bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 343px) {
+  .video__text {
+    left: 10px;
+    bottom: 10px;
+  }
+}

@@ -1,0 +1,8 @@
+.video__item {
+  position: relative;
+  text-decoration: none;
+}
+
+.video__item:hover {
+  opacity: 0.5;
+}
