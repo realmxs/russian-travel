@@ -13,3 +13,5 @@
 1. Проверка на кроссбраузерность.
 
 ## Ссылка на страницу
+
+https://realmxs.github.io/russian-travel/
