@@ -4,3 +4,7 @@
   text-decoration-line: underline;
   color: #FFFFFF;
 }
+
+.place__url:hover {
+  opacity: 0.5;
+}

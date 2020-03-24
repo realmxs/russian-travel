@@ -19,15 +19,10 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 984px) {
   .intro {
-    margin: 0 24px 97px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .intro {
-    margin: 0 16px 97px;
+    max-width: 720px;
+    margin: 0 auto 97px;
   }
 }
 

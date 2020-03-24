@@ -1,6 +1,7 @@
 .video__item {
   position: relative;
   text-decoration: none;
+  border-radius: 2%;
 }
 
 .video__item:hover {
