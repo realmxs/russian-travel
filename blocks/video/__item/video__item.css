@@ -4,6 +4,6 @@
   border-radius: 2%;
 }
 
-.video__item:hover {
+.video__item:hover .rect{
   opacity: 0.5;
 }

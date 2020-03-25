@@ -12,7 +12,7 @@
   height: 594px;
 }
 
-.cover:hover {
+.cover:hover .rect {
   opacity: 0.5;
 }
 
