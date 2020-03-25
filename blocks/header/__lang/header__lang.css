@@ -6,11 +6,11 @@
   text-align: right;
   margin: 0;
   margin-right: 18px;
+  text-decoration: none;
 }
 
 .header__lang:last-of-type {
   margin-right: 0;
-  text-decoration: none;
 }
 
 .header__lang:hover {

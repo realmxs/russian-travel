@@ -1,9 +1,8 @@
 @import url('./__title/cover__title.css');
 @import url('./__subtitle/cover__subtitle.css');
-@import url('./__background/cover__background.css');
 
 .cover {
-  background-image: url('./__background/cover__background.jpg');
+  background-image: url('../../images/cover__background.jpg');
   background-size: cover;
   position: relative;
   max-width: 1184px;

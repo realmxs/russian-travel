@@ -1,4 +1,4 @@
-.header__lang-block {
+.header__lang-container {
   display: flex;
   flex-direction: row;
 }
