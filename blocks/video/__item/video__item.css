@@ -4,6 +4,16 @@
   border-radius: 2%;
 }
 
-.video__item:hover .rect{
+.video__item::before{
+  content: '';
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  opacity: 0.3;
+}
+
+.video__item:hover::before{
   opacity: 0.5;
 }
