@@ -8,26 +8,23 @@
   display: flex;
   flex-direction: column;
   align-items: start;
-  max-width: 985px;
+  width: 100%;
+  max-width: 984px;
   margin: 0 auto 102px;
+  box-sizing: border-box;
 }
 
-
-@media screen and (max-width: 1024px) {
-  .intro {
-    margin: 0 48px 97px;
-  }
-}
 
 @media screen and (max-width: 984px) {
   .intro {
-    max-width: 720px;
-    margin: 0 auto 97px;
+    padding: 0 24px;
+    margin-bottom: 97px;
   }
 }
 
 @media screen and (max-width: 375px) {
   .intro {
+    padding: 0 16px;
     margin-bottom: 64px;
   }
 }

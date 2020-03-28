@@ -8,10 +8,11 @@
   grid-template-rows: repeat(3, 188px);
   grid-template-columns: repeat(4, 284px);
   grid-gap: 16px 16px;
+  box-sizing: border-box;
 }
 
 
-@media screen and (max-width: 1184px) {
+@media screen and (max-width: 1230px) {
   .photo-grid {
     width: 928px;
     grid-template-rows: repeat(4, 200px);
@@ -20,16 +21,16 @@
   }
 }
 
-@media screen and (max-width: 928px) {
+@media screen and (max-width: 984px) {
   .photo-grid {
-    width: 720px;
+    max-width: 720px;
     grid-template-rows: repeat(6, 234px);
     grid-template-columns: repeat(2, 352px);
     grid-gap: 16px 16px;
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 750px) {
   .photo-grid {
     width: 343px;
     grid-template-rows: repeat(12, 232px);

@@ -6,16 +6,19 @@
   max-width: 782px;
   margin: 0 auto 48px;
   color: #fff;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 984px) {
   .lead__title {
-    width: 90%;
+    width: 100%;
+    padding: 0 24px;
   }
 }
 
 @media screen and (max-width: 720px) {
   .lead__title {
+    padding: 0 16px;
     font-size: 40px;
     line-height: 44px;
     margin-bottom: 8px;

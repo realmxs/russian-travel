@@ -30,7 +30,6 @@
   }
 }
 
-
 @media screen and (max-width: 720px) {
   .place {
     width: 343px;
@@ -42,9 +41,8 @@
 
 @media screen and (max-width: 375px) {
   .place {
-    width: 282px;
-    grid-template-columns: 282px;
-    gap: 24px;
+    width: 100%;
+    grid-template-columns: 100%;
   }
 }
 

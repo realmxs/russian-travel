@@ -11,7 +11,9 @@
 
 .video {
   max-width: 1184px;
+  width: 100%;
   margin: 0 auto 100px;
+  box-sizing: border-box;
 }
 
 
@@ -23,12 +25,13 @@
 
 @media screen and (max-width: 984px) {
   .video {
-    max-width: 720px;
+    padding: 0 24px;
   }
 }
 
 @media screen and (max-width: 720px) {
   .video {
+    padding: 0 16px;
     margin-bottom: 64px;
   }
 }

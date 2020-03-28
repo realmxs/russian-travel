@@ -1,14 +1,16 @@
 @import url('./__container/comments__container.css');
 
 .comments {
+  width: 100%;
   max-width: 1184px;
   margin: 0 auto 102px;
+  box-sizing: border-box;
 }
 
 
 @media screen and (max-width: 1184px) {
   .comments {
-    max-width: 925px;
+    max-width: 928px;
   }
 }
 
@@ -20,12 +22,6 @@
 
 @media screen and (max-width: 720px) {
   .comments {
-    max-width: 343px;
-  }
-}
-
-@media screen and (max-width: 343px) {
-  .comments {
-    max-width: 288px;
+    padding: 0 16px;
   }
 }

@@ -5,17 +5,19 @@
 
 
 .lead {
-  max-width: 985px;
+  width: 100%;
+  max-width: 984px;
   margin: auto;
   margin-bottom: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-sizing: border-box;
 }
 
-@media screen and (max-width: 984px) {
+@media screen and (max-width: 1184px) {
   .lead {
-    width: 100%;
+    max-width: 928px;
   }
 }
 
