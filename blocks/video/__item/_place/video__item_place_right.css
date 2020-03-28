@@ -1,3 +1,4 @@
 .video__item_place_right {
   background-image: url('../../../../images/Observatory.jpg');
+  background-size: cover;
 }

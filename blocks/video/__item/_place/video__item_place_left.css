@@ -1,3 +1,4 @@
 .video__item_place_left {
   background-image: url('../../../../images/Kamchantka.jpg');
+  background-size: cover;
 }
