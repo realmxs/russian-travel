@@ -23,5 +23,12 @@
 @media screen and (max-width: 720px) {
   .comments {
     padding: 0 16px;
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .comments {
+    margin-bottom: 64px;
   }
 }
